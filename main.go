@@ -23,7 +23,7 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/tech-sketch/mqtt-kube-operator/handlers"
+	"github.com/RoboticBase/mqtt-kube-operator/handlers"
 )
 
 type executer struct {

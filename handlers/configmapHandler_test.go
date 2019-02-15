@@ -19,7 +19,7 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/tech-sketch/mqtt-kube-operator/mock"
+	"github.com/RoboticBase/mqtt-kube-operator/mock"
 )
 
 func setUpConfigmapHandler(t *testing.T) (*configmapHandler, *mock.MockConfigMapInterface, runtime.Object, *apiv1.ConfigMap, string, func()) {

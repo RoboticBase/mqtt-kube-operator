@@ -9,7 +9,7 @@ GOGET=$(GOCMD) get
 GOOS_CONTAINER=linux
 GOARCH_CONTAINER=amd64
 CONTAINER_BINARY=docker_$(NAME)
-CONTAINER_IMAGE=techsketch/$(NAME)
+CONTAINER_IMAGE=roboticbase/$(NAME)
 
 
 all: clean deps test cross-compile docker-build

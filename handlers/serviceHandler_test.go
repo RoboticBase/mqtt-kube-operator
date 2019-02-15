@@ -19,7 +19,7 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/tech-sketch/mqtt-kube-operator/mock"
+	"github.com/RoboticBase/mqtt-kube-operator/mock"
 )
 
 func setUpServiceHandler(t *testing.T) (*serviceHandler, *mock.MockServiceInterface, runtime.Object, *apiv1.Service, string, func()) {

@@ -19,7 +19,7 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/tech-sketch/mqtt-kube-operator/mock"
+	"github.com/RoboticBase/mqtt-kube-operator/mock"
 )
 
 func setUpDeploymentHandler(t *testing.T) (*deploymentHandler, *mock.MockDeploymentInterface, runtime.Object, *appsv1.Deployment, string, func()) {
