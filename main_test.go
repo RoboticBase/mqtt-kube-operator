@@ -18,8 +18,8 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/tech-sketch/mqtt-kube-operator/handlers"
-	"github.com/tech-sketch/mqtt-kube-operator/mock"
+	"github.com/RoboticBase/mqtt-kube-operator/handlers"
+	"github.com/RoboticBase/mqtt-kube-operator/mock"
 )
 
 func setUpMocks(t *testing.T) (*executer, *mock.MockClient, *mock.MockToken, func()) {
