@@ -25,8 +25,8 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/tech-sketch/mqtt-kube-operator/handlers"
-	"github.com/tech-sketch/mqtt-kube-operator/reporters"
+	"github.com/RoboticBase/mqtt-kube-operator/handlers"
+	"github.com/RoboticBase/mqtt-kube-operator/reporters"
 )
 
 type executer struct {
