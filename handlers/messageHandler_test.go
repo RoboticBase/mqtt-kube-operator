@@ -23,7 +23,7 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/tech-sketch/mqtt-kube-operator/mock"
+	"github.com/RoboticBase/mqtt-kube-operator/mock"
 )
 
 func setUpMocks(t *testing.T, deviceType string, deviceID string) (*MessageHandler, *mock.MockHandlerInf, *mock.MockHandlerInf, *mock.MockHandlerInf, *mock.MockHandlerInf, *mock.MockClient, *mock.MockMessage, *mock.MockToken, func()) {

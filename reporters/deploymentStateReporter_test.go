@@ -18,7 +18,7 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/tech-sketch/mqtt-kube-operator/mock"
+	"github.com/RoboticBase/mqtt-kube-operator/mock"
 )
 
 func setUpDeploymentStateReporterMocks(t *testing.T, deviceType string, deviceID string, intervalSec int) (*DeploymentStateReporter, func()) {
