@@ -1,8 +1,8 @@
 # mqtt-kube-operator
 Deploy a resource to remote Kubernetes using MQTT
 
-[![TravisCI Status](https://travis-ci.org/tech-sketch/mqtt-kube-operator.svg?branch=master)](https://travis-ci.org/tech-sketch/mqtt-kube-operator)
-[![Docker Pulls](https://img.shields.io/docker/pulls/techsketch/mqtt-kube-operator.svg)](https://hub.docker.com/r/techsketch/mqtt-kube-operator/)
+[![TravisCI Status](https://travis-ci.org/RoboticBase/mqtt-kube-operator.svg?branch=master)](https://travis-ci.org/RoboticBase/mqtt-kube-operator)
+[![Docker image size](https://img.shields.io/microbadger/image-size/roboticbase/mqtt-kube-operator.svg)](https://hub.docker.com/r/roboticbase/mqtt-kube-operator/)
 
 ## Description
 When this container is deployed a Kubernetes cluster, the container subscribes two MQTT topics.  
