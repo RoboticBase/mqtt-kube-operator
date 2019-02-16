@@ -126,7 +126,7 @@ func TestSetMQTTOptions(t *testing.T) {
 					assert.Equal(1, len(exec.opts.Servers))
 					url, _ := url.Parse(fmt.Sprintf("tcp://%s:%s", host, port))
 					assert.Equal(url, exec.opts.Servers[0])
-					assert.Nil(exec.opts.TLSConfig.RootCAs)
+					assert.Nil(exec.opts.TLSConfig)
 				} else {
 					assert.Equal(1, len(exec.opts.Servers))
 					url, _ := url.Parse(fmt.Sprintf("tls://%s:%s", host, port))
